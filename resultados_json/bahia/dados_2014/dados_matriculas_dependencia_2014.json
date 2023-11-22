@@ -1,0 +1,34 @@
+{
+  "Estadual": {
+    "Branca": 7331,
+    "Preta": 28777,
+    "Parda": 79403,
+    "Amarela": 578,
+    "Indígena": 1015,
+    "Não declarada": 48770
+  },
+  "Municipal": {
+    "Branca": 10467,
+    "Preta": 22953,
+    "Parda": 92889,
+    "Amarela": 1077,
+    "Indígena": 602,
+    "Não declarada": 99567
+  },
+  "Privada": {
+    "Branca": 268,
+    "Preta": 378,
+    "Parda": 1776,
+    "Amarela": 20,
+    "Indígena": 5,
+    "Não declarada": 1705
+  },
+  "Federal": {
+    "Branca": 17,
+    "Preta": 47,
+    "Parda": 146,
+    "Amarela": 2,
+    "Indígena": 4,
+    "Não declarada": 182
+  }
+}

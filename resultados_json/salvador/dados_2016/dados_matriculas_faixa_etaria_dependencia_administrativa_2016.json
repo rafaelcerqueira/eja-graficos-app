@@ -1,0 +1,42 @@
+{
+  "Estadual": {
+    "15 a 17 anos": 5517,
+    "18 a 19 anos": 10941,
+    "20 a 24 anos": 14050,
+    "25 a 29 anos": 4102,
+    "30 a 34 anos": 3496,
+    "35 a 39 anos": 3043,
+    "40 anos ou mais": 7068,
+    "Até 14 anos": 19
+  },
+  "Municipal": {
+    "15 a 17 anos": 3689,
+    "18 a 19 anos": 1771,
+    "20 a 24 anos": 1678,
+    "25 a 29 anos": 851,
+    "30 a 34 anos": 1228,
+    "35 a 39 anos": 1590,
+    "40 anos ou mais": 7531,
+    "Até 14 anos": 20
+  },
+  "Privada": {
+    "15 a 17 anos": 60,
+    "18 a 19 anos": 250,
+    "20 a 24 anos": 721,
+    "25 a 29 anos": 673,
+    "30 a 34 anos": 531,
+    "35 a 39 anos": 472,
+    "40 anos ou mais": 855,
+    "Até 14 anos": 4
+  },
+  "Federal": {
+    "15 a 17 anos": null,
+    "18 a 19 anos": 6.0,
+    "20 a 24 anos": 22.0,
+    "25 a 29 anos": 13.0,
+    "30 a 34 anos": 23.0,
+    "35 a 39 anos": 20.0,
+    "40 anos ou mais": 33.0,
+    "Até 14 anos": null
+  }
+}

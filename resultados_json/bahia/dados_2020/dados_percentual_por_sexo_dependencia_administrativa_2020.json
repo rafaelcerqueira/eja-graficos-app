@@ -1,0 +1,18 @@
+{
+  "Estadual": {
+    "Feminino": "51.4%",
+    "Masculino": "48.6%"
+  },
+  "Municipal": {
+    "Feminino": "45.61%",
+    "Masculino": "54.39%"
+  },
+  "Privada": {
+    "Feminino": "45.85%",
+    "Masculino": "54.15%"
+  },
+  "Federal": {
+    "Feminino": "60.77%",
+    "Masculino": "39.23%"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Estadual": {
+    "Feminino": 67734,
+    "Masculino": 65456
+  },
+  "Municipal": {
+    "Feminino": 90300,
+    "Masculino": 108038
+  },
+  "Privada": {
+    "Feminino": 2346,
+    "Masculino": 5312
+  },
+  "Federal": {
+    "Feminino": 279,
+    "Masculino": 167
+  }
+}
