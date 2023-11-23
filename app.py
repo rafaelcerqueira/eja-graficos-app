@@ -5,6 +5,14 @@ import pandas as pd
 
 from leitor_de_dados import LeitorDeDados
 
+#deploy
+# ------------------------
+st.set_page_config(page_title="Matrículas EJA", page_icon=":books:")
+
+
+#--------------------
+
+
 #Menu lateral
 st.header("Dados de Matrículas da EJA na Bahia")
 
@@ -15,6 +23,7 @@ localidade = st.sidebar.radio("Localidade", ["Bahia", "Salvador"])
 ano = st.sidebar.selectbox("Ano", [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022])
  
 modalidade = st.sidebar.radio("Modalidade", ["Matrículas por cor e raça", "Matrículas por faixa etária", "Matrículas por sexo"])
+
 
 if modalidade == "Matrículas por cor e raça":
     # exiba o radio button
