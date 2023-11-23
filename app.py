@@ -24,12 +24,6 @@ ano = st.sidebar.selectbox("Ano", [2013, 2014, 2015, 2016, 2017, 2018, 2019, 202
  
 modalidade = st.sidebar.radio("Modalidade", ["Matrículas por cor e raça", "Matrículas por faixa etária", "Matrículas por sexo"])
 
-
-if modalidade == "Matrículas por cor e raça":
-    # exiba o radio button
-    st.sidebar.selectbox("Cor e Raça", ["Total por dependência administrativa", "Percentual por dependência administrativa", "Percentual total", "Total de matrículas"])
-
-
 # Acessa a classe LeitorDeDados
 leitor = LeitorDeDados()
 
