@@ -18,7 +18,7 @@ click==8.1.7
 colorama==0.4.4
 
 cryptography==3.4.8
-cupshelpers==1.0
+
 cycler==0.11.0
 dash==2.14.1
 dash-bootstrap-components==1.5.0
