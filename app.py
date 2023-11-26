@@ -1,5 +1,10 @@
 import streamlit as st
 
+# icone da página
+st.set_page_config(page_title='Matrículas da Educação de Jovens e Adultos (EJA) na Bahia',
+                   page_icon=':books:',
+                   )
+
 # Header
 st.header('Dados de Matrículas da Educação de Jovens e Adultos (EJA) na Bahia')
 
