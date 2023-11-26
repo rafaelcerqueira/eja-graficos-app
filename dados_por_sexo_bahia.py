@@ -149,7 +149,7 @@ def cria_grafico_matriculas_por_sexo(localidade, matriculas, ano):
     fig3.update_layout(
         height=600,
         width=800,
-        hoverlabel=dict(bgcolor="#636EFA", font_size=12, font_family="Rockwell"),
+        hoverlabel=dict(bgcolor="#363e63", font_size=12, font_family="Rockwell"),
         legend=dict(title='Sexo')
     )
     fig3.update_xaxes(title_text='Sexo')
@@ -170,7 +170,7 @@ def cria_grafico_matriculas_por_sexo(localidade, matriculas, ano):
     fig4.update_layout(
         height=600,
         width=800,
-        hoverlabel=dict(bgcolor="#636EFA", font_size=12, font_family="Rockwell"),
+        hoverlabel=dict(bgcolor="#363e63", font_size=12, font_family="Rockwell"),
         legend=dict(title='Sexo')
 
     )
