@@ -368,11 +368,11 @@ elif localidade == 'Salvador':
             'Ainda não há dados para este ano.'
     elif ano == 2021:
         if matriculas == 'Por cor e raça':
-            from dados_por_sexo_salvador import cria_grafico_matriculas_por_sexo
-            cria_grafico_matriculas_por_sexo = cria_grafico_matriculas_por_sexo(localidade=localidade, matriculas=matriculas, ano=ano)
+            from dados_cor_raca_salvador import cria_graficos_cor_raca
+            cria_graficos_cor_raca = cria_graficos_cor_raca(localidade=localidade, matriculas=matriculas, ano=ano)
             st.subheader('Matrículas por Cor e Raça em ' + str(ano) + ' - ' + localidade)
             for i in range(4):
-                st.plotly_chart(cria_grafico_matriculas_por_sexo[i])
+                st.plotly_chart(cria_graficos_cor_raca[i])
 
         elif matriculas == 'Por faixa etária':
             'Ainda não há dados para este ano.'

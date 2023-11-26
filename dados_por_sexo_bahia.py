@@ -9,73 +9,73 @@ def carrega_dados_json(localidade, matriculas, ano):
 
     if localidade == 'Bahia' and matriculas == 'Por sexo':
         if ano == 2013:
-            total_matriculas = leitor.ler_dados_cor_raca_bahia('dados_2013', 'dados_total_matriculas_por_sexo_2013.json')
-            percentual_total = leitor.ler_dados_cor_raca_bahia('dados_2013', 'json_dados_percentual_total_por_sexo_2013.json')
-            total_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2013', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2013.json')
-            percentual_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2013', 'dados_percentual_por_sexo_dependencia_administrativa_2013.json')
+            total_matriculas = leitor.ler_dados_sexo_bahia('dados_2013', 'dados_total_matriculas_por_sexo_2013.json')
+            percentual_total = leitor.ler_dados_sexo_bahia('dados_2013', 'json_dados_percentual_total_por_sexo_2013.json')
+            total_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2013', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2013.json')
+            percentual_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2013', 'dados_percentual_por_sexo_dependencia_administrativa_2013.json')
 
             return total_matriculas, percentual_total, total_dependencia_administrativa, percentual_dependencia_administrativa
         elif ano == 2014:
-            total_matriculas = leitor.ler_dados_cor_raca_bahia('dados_2014', 'dados_total_matriculas_por_sexo_2014.json')
-            percentual_total = leitor.ler_dados_cor_raca_bahia('dados_2014', 'json_dados_percentual_total_por_sexo_2014.json')
-            total_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2014', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2014.json')
-            percentual_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2014', 'dados_percentual_por_sexo_dependencia_administrativa_2014.json')
+            total_matriculas = leitor.ler_dados_sexo_bahia('dados_2014', 'dados_total_matriculas_por_sexo_2014.json')
+            percentual_total = leitor.ler_dados_sexo_bahia('dados_2014', 'json_dados_percentual_total_por_sexo_2014.json')
+            total_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2014', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2014.json')
+            percentual_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2014', 'dados_percentual_por_sexo_dependencia_administrativa_2014.json')
 
             return total_matriculas, percentual_total, total_dependencia_administrativa, percentual_dependencia_administrativa
         elif ano == 2015:
-            total_matriculas = leitor.ler_dados_cor_raca_bahia('dados_2015', 'dados_total_matriculas_por_sexo_2015.json')
-            percentual_total = leitor.ler_dados_cor_raca_bahia('dados_2015', 'json_dados_percentual_total_por_sexo_2015.json')
-            total_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2015', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2015.json')
-            percentual_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2015', 'dados_percentual_por_sexo_dependencia_administrativa_2015.json')
+            total_matriculas = leitor.ler_dados_sexo_bahia('dados_2015', 'dados_total_matriculas_por_sexo_2015.json')
+            percentual_total = leitor.ler_dados_sexo_bahia('dados_2015', 'json_dados_percentual_total_por_sexo_2015.json')
+            total_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2015', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2015.json')
+            percentual_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2015', 'dados_percentual_por_sexo_dependencia_administrativa_2015.json')
 
             return total_matriculas, percentual_total, total_dependencia_administrativa, percentual_dependencia_administrativa
         elif ano == 2016:
-            total_matriculas = leitor.ler_dados_cor_raca_bahia('dados_2016', 'dados_total_matriculas_por_sexo_2016.json')
-            percentual_total = leitor.ler_dados_cor_raca_bahia('dados_2016', 'json_dados_percentual_total_por_sexo_2016.json')
-            total_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2016', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2016.json')
-            percentual_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2016', 'dados_percentual_por_sexo_dependencia_administrativa_2016.json')
+            total_matriculas = leitor.ler_dados_sexo_bahia('dados_2016', 'dados_total_matriculas_por_sexo_2016.json')
+            percentual_total = leitor.ler_dados_sexo_bahia('dados_2016', 'json_dados_percentual_total_por_sexo_2016.json')
+            total_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2016', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2016.json')
+            percentual_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2016', 'dados_percentual_por_sexo_dependencia_administrativa_2016.json')
 
             return total_matriculas, percentual_total, total_dependencia_administrativa, percentual_dependencia_administrativa
         elif ano == 2017:
-            total_matriculas = leitor.ler_dados_cor_raca_bahia('dados_2017', 'dados_total_matriculas_por_sexo_2017.json')
-            percentual_total = leitor.ler_dados_cor_raca_bahia('dados_2017', 'json_dados_percentual_total_por_sexo_2017.json')
-            total_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2017', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2017.json')
-            percentual_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2017', 'dados_percentual_por_sexo_dependencia_administrativa_2017.json')
+            total_matriculas = leitor.ler_dados_sexo_bahia('dados_2017', 'dados_total_matriculas_por_sexo_2017.json')
+            percentual_total = leitor.ler_dados_sexo_bahia('dados_2017', 'json_dados_percentual_total_por_sexo_2017.json')
+            total_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2017', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2017.json')
+            percentual_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2017', 'dados_percentual_por_sexo_dependencia_administrativa_2017.json')
 
             return total_matriculas, percentual_total, total_dependencia_administrativa, percentual_dependencia_administrativa
         elif ano == 2018:
-            total_matriculas = leitor.ler_dados_cor_raca_bahia('dados_2018', 'dados_total_matriculas_por_sexo_2018.json')
-            percentual_total = leitor.ler_dados_cor_raca_bahia('dados_2018', 'dados_percentual_total_por_sexo_2018.json')
-            total_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2018', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2018.json')
-            percentual_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2018', 'dados_percentual_por_sexo_dependencia_administrativa_2018.json')
+            total_matriculas = leitor.ler_dados_sexo_bahia('dados_2018', 'dados_total_matriculas_por_sexo_2018.json')
+            percentual_total = leitor.ler_dados_sexo_bahia('dados_2018', 'dados_percentual_total_por_sexo_2018.json')
+            total_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2018', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2018.json')
+            percentual_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2018', 'dados_percentual_por_sexo_dependencia_administrativa_2018.json')
 
             return total_matriculas, percentual_total, total_dependencia_administrativa, percentual_dependencia_administrativa
         elif ano == 2019:
-            total_matriculas = leitor.ler_dados_cor_raca_bahia('dados_2019', 'dados_total_matriculas_por_sexo_2019.json')
-            percentual_total = leitor.ler_dados_cor_raca_bahia('dados_2019', 'dados_percentual_total_por_sexo_2019.json')
-            total_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2019', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2019.json')
-            percentual_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2019', 'dados_percentual_por_sexo_dependencia_administrativa_2019.json')
+            total_matriculas = leitor.ler_dados_sexo_bahia('dados_2019', 'dados_total_matriculas_por_sexo_2019.json')
+            percentual_total = leitor.ler_dados_sexo_bahia('dados_2019', 'dados_percentual_total_por_sexo_2019.json')
+            total_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2019', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2019.json')
+            percentual_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2019', 'dados_percentual_por_sexo_dependencia_administrativa_2019.json')
 
             return total_matriculas, percentual_total, total_dependencia_administrativa, percentual_dependencia_administrativa
         elif ano == 2020:
-            total_matriculas = leitor.ler_dados_cor_raca_bahia('dados_2020', 'dados_total_matriculas_por_sexo_2020.json')
-            percentual_total = leitor.ler_dados_cor_raca_bahia('dados_2020', 'dados_percentual_total_por_sexo_2020.json')
-            total_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2020', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2020.json')
-            percentual_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2020', 'dados_percentual_por_sexo_dependencia_administrativa_2020.json')
+            total_matriculas = leitor.ler_dados_sexo_bahia('dados_2020', 'dados_total_matriculas_por_sexo_2020.json')
+            percentual_total = leitor.ler_dados_sexo_bahia('dados_2020', 'dados_percentual_total_por_sexo_2020.json')
+            total_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2020', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2020.json')
+            percentual_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2020', 'dados_percentual_por_sexo_dependencia_administrativa_2020.json')
 
             return total_matriculas, percentual_total, total_dependencia_administrativa, percentual_dependencia_administrativa
         elif ano == 2021:
-            total_matriculas = leitor.ler_dados_cor_raca_bahia('dados_2021', 'dados_total_matriculas_por_sexo_2021.json')
-            percentual_total = leitor.ler_dados_cor_raca_bahia('dados_2021', 'dados_percentual_total_por_sexo_2021.json')
-            total_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2021', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2021.json')
-            percentual_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2021', 'dados_percentual_por_sexo_dependencia_administrativa_2021.json')
+            total_matriculas = leitor.ler_dados_sexo_bahia('dados_2021', 'dados_total_matriculas_por_sexo_2021.json')
+            percentual_total = leitor.ler_dados_sexo_bahia('dados_2021', 'dados_percentual_total_por_sexo_2021.json')
+            total_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2021', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2021.json')
+            percentual_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2021', 'dados_percentual_por_sexo_dependencia_administrativa_2021.json')
 
             return total_matriculas, percentual_total, total_dependencia_administrativa, percentual_dependencia_administrativa
         elif ano == 2022:
-            total_matriculas = leitor.ler_dados_cor_raca_bahia('dados_2022', 'dados_total_matriculas_por_sexo_2022.json')
-            percentual_total = leitor.ler_dados_cor_raca_bahia('dados_2022', 'dados_percentual_total_por_sexo_2022.json')
-            total_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2022', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2022.json')
-            percentual_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2022', 'dados_percentual_por_sexo_dependencia_administrativa_2022.json')
+            total_matriculas = leitor.ler_dados_sexo_bahia('dados_2022', 'dados_total_matriculas_por_sexo_2022.json')
+            percentual_total = leitor.ler_dados_sexo_bahia('dados_2022', 'dados_percentual_total_por_sexo_2022.json')
+            total_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2022', 'dados_matriculas_por_sexo_por_dependencia_administrativa_2022.json')
+            percentual_dependencia_administrativa = leitor.ler_dados_sexo_bahia('dados_2022', 'dados_percentual_por_sexo_dependencia_administrativa_2022.json')
 
             return total_matriculas, percentual_total, total_dependencia_administrativa, percentual_dependencia_administrativa
 
