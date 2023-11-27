@@ -147,6 +147,7 @@ def cria_grafico_matriculas_por_sexo(localidade, matriculas, ano):
         y=['Estadual', 'Municipal', 'Privada', 'Federal'],
         title='Matrículas por Sexo e Dependência Administrativa'
     )
+
     fig3.update_layout(
         height=600,
         width=800,

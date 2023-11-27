@@ -126,6 +126,7 @@ def cria_graficos_cor_raca(localidade, matriculas, ano):
         x='Cor e raça',
         y='Total',
         color='Cor e raça',
+        color_discrete_sequence=['#FB8C00', '#F4511E', '#7CB342', '#00897B', '#F06292', '#78909C'],
         title='Matrículas por Cor e Raça' + ' - Total: ' + str(total_matriculas)
     )
     fig.update_layout(height=600, width=800)
@@ -139,6 +140,7 @@ def cria_graficos_cor_raca(localidade, matriculas, ano):
         x='Cor e raça',
         y='Percentual',
         color='Cor e raça',
+        color_discrete_sequence=['#FB8C00', '#F4511E', '#7CB342', '#00897B', '#F06292', '#78909C'],
         title='Percentual Total de Matrículas por Cor e Raça'
     )
     fig2.update_layout(height=600, width=800)
@@ -151,7 +153,7 @@ def cria_graficos_cor_raca(localidade, matriculas, ano):
         df_total_dependencia_administrativa,
         x=['Branca', 'Preta', 'Parda', 'Amarela', 'Indígena', 'Não declarada'],
         y=['Estadual', 'Municipal', 'Privada', 'Federal'],
-        color_discrete_sequence=['#636EFA', '#EF553B', '#00CC96', '#AB63FA'],
+        color_discrete_sequence=['#FB8C00', '#F4511E', '#7CB342', '#00897B', '#F06292', '#78909C'],
         title='Total de Matrículas por Cor e Raça e Dependência Administrativa'
     )
     fig3.update_xaxes(title_text='Cor e Raça')
@@ -176,7 +178,7 @@ def cria_graficos_cor_raca(localidade, matriculas, ano):
         df_percentual_dependencia_administrativa,
         x=['Branca', 'Preta', 'Parda', 'Amarela', 'Indígena', 'Não declarada'],
         y=['Estadual', 'Municipal', 'Privada', 'Federal'],
-        color_discrete_sequence=['#636EFA', '#EF553B', '#00CC96', '#AB63FA'],
+        color_discrete_sequence=['#FB8C00', '#F4511E', '#7CB342', '#00897B', '#F06292', '#78909C'],
         title='Percentual de Matrículas por Cor e Raça e Dependência Administrativa'
     )
     fig4.update_xaxes(title_text='Cor e Raça')
