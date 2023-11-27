@@ -14,7 +14,7 @@ class LeitorDeDados:
     
     # dados da Bahia:
     def ler_dados_cor_raca_bahia(self, ano, nome_arquivo):
-        response = requests.get(url + 'bahia' + '/' + ano + '/' + nome_arquivo)
+        response = requests.get(url + 'bahia/' + ano + '/' + nome_arquivo)
         dados = json.loads(response.text)
         dados = json.dumps(dados)
         

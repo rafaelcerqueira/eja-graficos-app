@@ -104,21 +104,21 @@ def cria_graficos_cor_raca(localidade, matriculas, ano):
     df_total_matriculas = df_total_matriculas.transpose().reset_index()
     df_total_matriculas.columns = ['Cor e raça', 'Total']
 
+    # acessa os dados do DataFrame df_total_matriculas e retorna o somatório de todas as matrículas:
+    total_matriculas = df_total_matriculas['Total'].sum()
+
     # fig2
     df_percentual_total = pd.DataFrame(percentual_total, index=[0])
     df_percentual_total = df_percentual_total.transpose().reset_index()
     df_percentual_total.columns = ['Cor e raça', 'Percentual']
 
     # fig3
-    df_total_dependencia_administrativa = pd.DataFrame(total_dependencia_administrativa,).transpose()
+    df_total_dependencia_administrativa = pd.DataFrame(total_dependencia_administrativa).transpose()
     df_total_dependencia_administrativa = df_total_dependencia_administrativa.astype(int)
 
     # fig4
     df_percentual_dependencia_administrativa = pd.DataFrame(percentual_dependencia_administrativa).transpose()
     df_percentual_dependencia_administrativa = df_percentual_dependencia_administrativa.replace('%', '', regex=True).astype(float)
-
-    # acessa os dados do DataFrame df_total_matriculas e retorna o somatório de todas as matrículas
-    total_matriculas = df_total_matriculas['Total'].sum()
 
     # cria o gráfico de barras
     fig = px.bar(
@@ -161,12 +161,11 @@ def cria_graficos_cor_raca(localidade, matriculas, ano):
     fig3.update_layout(
         height=600,
         width=800,
-        hoverlabel=dict(bgcolor="#363e63", font_size=16, font_family="Rockwell"),
+        hoverlabel=dict(bgcolor="#363e63", font_size=12, font_family="Rockwell"),
         legend=dict(title='Cor e raça')
 
     )
     # Ajustando os rótulos do hover
-
     fig3.update_traces(
         hovertemplate="Cor e Raça<br>Total=%{value}<br>Dep. Adm.=%{y}",
         texttemplate='%{value}',

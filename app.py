@@ -28,7 +28,11 @@ if localidade == 'Bahia':
                 st.plotly_chart(grafico_cor_raca_bahia[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_bahia import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_bahia = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_bahia)):
+                st.plotly_chart(grafico_faixa_etaria_bahia[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_bahia import cria_grafico_matriculas_por_sexo
@@ -47,7 +51,11 @@ if localidade == 'Bahia':
                 st.plotly_chart(grafico_cor_raca_bahia[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_bahia import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_bahia = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_bahia)):
+                st.plotly_chart(grafico_faixa_etaria_bahia[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_bahia import cria_grafico_matriculas_por_sexo
@@ -66,7 +74,11 @@ if localidade == 'Bahia':
                 st.plotly_chart(grafico_cor_raca_bahia[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_bahia import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_bahia = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_bahia)):
+                st.plotly_chart(grafico_faixa_etaria_bahia[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_bahia import cria_grafico_matriculas_por_sexo
@@ -85,7 +97,11 @@ if localidade == 'Bahia':
                 st.plotly_chart(grafico_cor_raca_bahia[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_bahia import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_bahia = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_bahia)):
+                st.plotly_chart(grafico_faixa_etaria_bahia[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_bahia import cria_grafico_matriculas_por_sexo
@@ -104,7 +120,11 @@ if localidade == 'Bahia':
                 st.plotly_chart(grafico_cor_raca_bahia[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_bahia import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_bahia = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_bahia)):
+                st.plotly_chart(grafico_faixa_etaria_bahia[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_bahia import cria_grafico_matriculas_por_sexo
@@ -123,7 +143,11 @@ if localidade == 'Bahia':
                 st.plotly_chart(grafico_cor_raca_bahia[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_bahia import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_bahia = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_bahia)):
+                st.plotly_chart(grafico_faixa_etaria_bahia[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_bahia import cria_grafico_matriculas_por_sexo
@@ -142,7 +166,11 @@ if localidade == 'Bahia':
                 st.plotly_chart(grafico_cor_raca_bahia[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_bahia import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_bahia = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_bahia)):
+                st.plotly_chart(grafico_faixa_etaria_bahia[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_bahia import cria_grafico_matriculas_por_sexo
@@ -161,7 +189,11 @@ if localidade == 'Bahia':
                 st.plotly_chart(grafico_cor_raca_bahia[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_bahia import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_bahia = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_bahia)):
+                st.plotly_chart(grafico_faixa_etaria_bahia[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_bahia import cria_grafico_matriculas_por_sexo
@@ -180,7 +212,11 @@ if localidade == 'Bahia':
                 st.plotly_chart(grafico_cor_raca_bahia[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_bahia import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_bahia = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_bahia)):
+                st.plotly_chart(grafico_faixa_etaria_bahia[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_bahia import cria_grafico_matriculas_por_sexo
@@ -199,7 +235,11 @@ if localidade == 'Bahia':
                 st.plotly_chart(grafico_cor_raca_bahia[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_bahia import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_bahia = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_bahia)):
+                st.plotly_chart(grafico_faixa_etaria_bahia[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_bahia import cria_grafico_matriculas_por_sexo
@@ -221,7 +261,11 @@ elif localidade == 'Salvador':
                 st.plotly_chart(grafico_cor_raca_salvador[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_salvador import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_salvador = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_salvador)):
+                st.plotly_chart(grafico_faixa_etaria_salvador[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_salvador import cria_grafico_matriculas_por_sexo
@@ -241,7 +285,11 @@ elif localidade == 'Salvador':
                 st.plotly_chart(grafico_cor_raca_salvador[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_salvador import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_salvador = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_salvador)):
+                st.plotly_chart(grafico_faixa_etaria_salvador[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_salvador import cria_grafico_matriculas_por_sexo
@@ -260,7 +308,11 @@ elif localidade == 'Salvador':
                 st.plotly_chart(grafico_cor_raca_salvador[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_salvador import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_salvador = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_salvador)):
+                st.plotly_chart(grafico_faixa_etaria_salvador[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_salvador import cria_grafico_matriculas_por_sexo
@@ -280,7 +332,12 @@ elif localidade == 'Salvador':
                 st.plotly_chart(grafico_cor_raca_salvador[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_salvador import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_salvador = cria_graficos_faixa_etaria(
+                localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_salvador)):
+                st.plotly_chart(grafico_faixa_etaria_salvador[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_salvador import cria_grafico_matriculas_por_sexo
@@ -302,7 +359,12 @@ elif localidade == 'Salvador':
                 st.plotly_chart(grafico_cor_raca_salvador[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_salvador import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_salvador = cria_graficos_faixa_etaria(
+                localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_salvador)):
+                st.plotly_chart(grafico_faixa_etaria_salvador[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_salvador import cria_grafico_matriculas_por_sexo
@@ -321,7 +383,11 @@ elif localidade == 'Salvador':
                 st.plotly_chart(grafico_cor_raca_salvador[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_salvador import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_salvador = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_salvador)):
+                st.plotly_chart(grafico_faixa_etaria_salvador[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_salvador import cria_grafico_matriculas_por_sexo
@@ -341,7 +407,12 @@ elif localidade == 'Salvador':
                 st.plotly_chart(grafico_cor_raca_salvador[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_salvador import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_salvador = cria_graficos_faixa_etaria(
+                localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_salvador)):
+                st.plotly_chart(grafico_faixa_etaria_salvador[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_salvador import cria_grafico_matriculas_por_sexo
@@ -361,7 +432,11 @@ elif localidade == 'Salvador':
                 st.plotly_chart(grafico_cor_raca_salvador[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_salvador import cria_graficos_faixa_etaria
+            grafico_faixa_etaria_salvador = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas, ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_salvador)):
+                st.plotly_chart(grafico_faixa_etaria_salvador[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_salvador import cria_grafico_matriculas_por_sexo
@@ -381,7 +456,13 @@ elif localidade == 'Salvador':
                 st.plotly_chart(cria_graficos_cor_raca[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_salvador import cria_graficos_faixa_etaria
+
+            grafico_faixa_etaria_salvador = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas,
+                                                                       ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_salvador)):
+                st.plotly_chart(grafico_faixa_etaria_salvador[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_salvador import cria_grafico_matriculas_por_sexo
@@ -400,7 +481,13 @@ elif localidade == 'Salvador':
                 st.plotly_chart(grafico_cor_raca_salvador[i])
 
         elif matriculas == 'Por faixa etária':
-            'Ainda não há dados para este ano.'
+            from dados_faixa_etaria_salvador import cria_graficos_faixa_etaria
+
+            grafico_faixa_etaria_salvador = cria_graficos_faixa_etaria(localidade=localidade, matriculas=matriculas,
+                                                                       ano=ano)
+            st.subheader('Matrículas por Faixa Etária em ' + str(ano) + ' - ' + localidade)
+            for i in range(len(grafico_faixa_etaria_salvador)):
+                st.plotly_chart(grafico_faixa_etaria_salvador[i])
 
         elif matriculas == 'Por sexo':
             from dados_por_sexo_salvador import cria_grafico_matriculas_por_sexo
