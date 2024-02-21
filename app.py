@@ -14,7 +14,16 @@ st.sidebar.title('Menu')
 st.sidebar.header('Selecione a opção desejada:')
 localidade = st.sidebar.selectbox('Localidade', ('Bahia', 'Salvador'))
 matriculas = st.sidebar.radio('Matrículas', ('Por cor e raça', 'Por faixa etária', 'Por sexo'))
+
+if matriculas == 'Por sexo':
+    categorias = st.sidebar.selectbox('Selecione a categoria:', ('Total', 'Cor e raça', 'Faixa etária'))
+
 ano = st.sidebar.selectbox('Ano', (2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022))
+
+# Texto introdutório
+st.sidebar.markdown('''Este aplicativo tem como objetivo apresentar os dados de matrículas da Educação de Jovens e Adultos (EJA) na Bahia.''')
+
+st.sidebar.markdown('''Todos os dados foram obtidos através do site do [Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP)](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/inep-data/estatisticas-censo-escolar).''')
 
 # Renderiza os gráficos:
 # Bahia: ------------------------------------
@@ -35,11 +44,16 @@ if localidade == 'Bahia':
                 st.plotly_chart(grafico_faixa_etaria_bahia[i])
 
         elif matriculas == 'Por sexo':
-            from dados_por_sexo_bahia import cria_grafico_matriculas_por_sexo
-            grafico_matriculas_por_sexo = cria_grafico_matriculas_por_sexo(localidade=localidade, matriculas=matriculas, ano=ano)
-            st.subheader('Matrículas por Sexo em ' + str(ano) + ' - ' + localidade)
-            for i in range(4):
-                st.plotly_chart(grafico_matriculas_por_sexo[i])
+            if categorias == 'Total':
+                from dados_por_sexo_bahia import cria_grafico_matriculas_por_sexo
+                grafico_matriculas_por_sexo = cria_grafico_matriculas_por_sexo(localidade=localidade, matriculas=matriculas, ano=ano)
+                st.subheader('Matrículas por Sexo em ' + str(ano) + ' - ' + localidade)
+                for i in range(4):
+                    st.plotly_chart(grafico_matriculas_por_sexo[i])
+            elif categorias == 'Cor e raça':
+                'Ainda não há dados para cor e raça.'
+            elif categorias == 'Faixa etária':
+                'Ainda não há dados para faixa etária.'
         else:
             'Ainda não há dados para este ano.'
     elif ano == 2014:
@@ -58,11 +72,16 @@ if localidade == 'Bahia':
                 st.plotly_chart(grafico_faixa_etaria_bahia[i])
 
         elif matriculas == 'Por sexo':
-            from dados_por_sexo_bahia import cria_grafico_matriculas_por_sexo
-            grafico_matriculas_por_sexo = cria_grafico_matriculas_por_sexo(localidade=localidade, matriculas=matriculas, ano=ano)
-            st.subheader('Matrículas por Sexo em ' + str(ano) + ' - ' + localidade)
-            for i in range(4):
-                st.plotly_chart(grafico_matriculas_por_sexo[i])
+            if categorias == 'Total':
+                from dados_por_sexo_bahia import cria_grafico_matriculas_por_sexo
+                grafico_matriculas_por_sexo = cria_grafico_matriculas_por_sexo(localidade=localidade, matriculas=matriculas, ano=ano)
+                st.subheader('Matrículas por Sexo em ' + str(ano) + ' - ' + localidade)
+                for i in range(4):
+                    st.plotly_chart(grafico_matriculas_por_sexo[i])
+            elif categorias == 'Cor e raça':
+                'Ainda não há dados para cor e raça.'
+            elif categorias == 'Faixa etária':
+                'Ainda não há dados para faixa etária.'
         else:
             'Ainda não há dados para este ano.'
     elif ano == 2015:

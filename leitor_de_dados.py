@@ -4,10 +4,6 @@ import json
 # acessa endereco raw do repositorio no github
 url = 'https://raw.githubusercontent.com/rafaelcerqueira/resultados-matriculas-eja-json/main/'
 
-# response = requests.get(url + 'bahia/dados_2013/json_dados_percentual_total_por_sexo_2013.json')
-
-# crie uma classe que contenha várias funções para ler os dados
-
 class LeitorDeDados:
     def __init__(self):
         pass
@@ -31,7 +27,7 @@ class LeitorDeDados:
         response = requests.get(url + 'bahia/' + ano + '/' + nome_arquivo)
         dados = json.loads(response.text)
         
-        # converta o tipo dict para json em 'dados'
+        # converte o tipo dict para json em 'dados'
         dados = json.dumps(dados)
         
         return dados
@@ -59,6 +55,6 @@ class LeitorDeDados:
         return dados
     
 
-# instancie a classe
+# instancia a classe
 
 leitor = LeitorDeDados()

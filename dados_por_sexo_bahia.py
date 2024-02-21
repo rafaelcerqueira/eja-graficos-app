@@ -3,6 +3,7 @@ import pandas as pd
 import json
 
 from leitor_de_dados import LeitorDeDados
+
 leitor = LeitorDeDados()
 
 def carrega_dados_json(localidade, matriculas, ano):

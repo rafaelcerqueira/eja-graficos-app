@@ -2,9 +2,7 @@ import plotly.express as px
 import pandas as pd
 import json
 
-# importe a classe LeitorDeDados
 from leitor_de_dados import LeitorDeDados
-# instanca a classe
 leitor = LeitorDeDados()
 
 def carrega_dados_json(localidade, matriculas, ano):
@@ -82,7 +80,6 @@ def carrega_dados_json(localidade, matriculas, ano):
             percentual_dependencia_administrativa = leitor.ler_dados_cor_raca_bahia('dados_2022', 'dados_porcentagem_matriculas_dependencia_2022.json')
 
             return total_matriculas, percentual_total, total_dependencia_administrativa, percentual_dependencia_administrativa
-
 
 # Cria os gráficos:
 def cria_graficos_cor_raca(localidade, matriculas, ano):

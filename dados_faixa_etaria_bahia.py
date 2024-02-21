@@ -146,7 +146,7 @@ def cria_graficos_faixa_etaria(localidade, matriculas, ano):
     df_percentual_dependencia_administrativa = pd.DataFrame(percentual_dependencia_administrativa).transpose()
     df_percentual_dependencia_administrativa = df_percentual_dependencia_administrativa.replace('%', '', regex=True).astype(float)
 
-    # crie um gráfico de acordo com os dados do dataframe df_total_matriculas
+    # cria um gráfico de acordo com os dados do dataframe df_total_matriculas
     fig = px.bar(
         df_total_matriculas,
         x='Faixa etária',

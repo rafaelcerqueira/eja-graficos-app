@@ -2,9 +2,8 @@ import plotly.express as px
 import json
 import pandas as pd
 
-# importe a classe LeitorDeDados
 from leitor_de_dados import LeitorDeDados
-# instanca a classe
+
 leitor = LeitorDeDados()
 
 def carrega_dados_json(localidade, matriculas, ano):
